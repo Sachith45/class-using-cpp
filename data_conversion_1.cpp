@@ -15,7 +15,7 @@ public:
         hour=t/60;
         mins=t%60;
     }
-    display()
+    void display()
     {
         cout<<"TIME"<<endl;
         cout<<hour<<":"<<mins<<endl;
