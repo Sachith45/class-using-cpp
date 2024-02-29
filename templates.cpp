@@ -7,8 +7,8 @@ T mymax(T x,T y)
 }
 int main()
 {
-    mymax<int>(29,11);
+
     cout<<"MAX="<<mymax<int>(29,11)<<endl;
-    mymax<char>('s','d');
+
     cout<<"letter="<<mymax<char>('s','d')<<endl;
 }
